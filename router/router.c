@@ -350,7 +350,7 @@ void loop(int sockfd) {
       if (neighbours[i].rounds_since_responded > 2)
         handle_unavailable_neighbour(i);
 
-    sleep(15);
+    sleep(3);
   }
 }
 
