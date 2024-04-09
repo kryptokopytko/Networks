@@ -409,6 +409,5 @@ int main() {
   int sockfd = create_socket();
   input();
   loop(sockfd);
-
   close(sockfd);
 }
